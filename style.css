@@ -38,3 +38,9 @@ tr:nth-child(odd) td {
 caption {
     padding: 10px;
 }
+
+/* Rounded border */
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+}
