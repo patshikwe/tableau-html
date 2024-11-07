@@ -29,6 +29,10 @@ td {
     text-align: center;
 }
 
+caption {
+    padding: 10px;
+}
+
 hr.rounded {
     border-top: 8px solid #bbb;
     border-radius: 5px;
@@ -59,10 +63,6 @@ section {
 
 /* .colHeaders {
     color: red;
-}
-
-caption {
-    padding: 10px;
 } */
 
 /* Rounded border */
