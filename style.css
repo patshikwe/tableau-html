@@ -1,7 +1,17 @@
-html {
-    font-family: sans-serif;
+/* init */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* typo */
+body {
+    font-family: sans-serif;
+    margin: 0 1rem;
+}
+
+/* general style */
 table {
     border-collapse: collapse;
     border: 2px solid rgb(200, 200, 200);
@@ -15,32 +25,58 @@ th {
     padding: 10px 20px;
 }
 
-th {
-    background-color: rgb(235, 235, 235);
-}
-
 td {
     text-align: center;
 }
 
-tr:nth-child(even) td {
-    background-color: rgb(250, 250, 250);
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
 }
 
-tr:nth-child(odd) td {
-    background-color: rgb(245, 245, 245);
+section {
+    margin-bottom: 1rem;
 }
 
-.colHeaders {
+/* section one, two and three */
+.one th,
+.two th,
+.three th {
+    background-color: rgb(235, 235, 235);
+}
+
+.one tr:nth-child(even) td,
+.two tr:nth-child(even) td,
+.three tr:nth-child(even) td {
+    background-color: #D4FFFA;
+}
+
+.one tr:nth-child(odd) td,
+.two tr:nth-child(odd) td,
+.three tr:nth-child(odd) td {
+    background-color: #C5EA25;
+}
+
+/* .colHeaders {
     color: red;
 }
 
 caption {
     padding: 10px;
-}
+} */
 
 /* Rounded border */
-hr.rounded {
-    border-top: 8px solid #bbb;
-    border-radius: 5px;
+
+
+/* section four */
+.white {
+    background: #fff;
+}
+
+.clear {
+    background: rgba(239, 179, 0, 0.28);
+}
+
+.dark {
+    background: #777;
 }
