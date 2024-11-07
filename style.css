@@ -45,28 +45,26 @@ section {
 /* section one, two and three */
 .one th,
 .two th,
-.three th {
+.three th,
+.five th,
+.six th {
     background-color: rgb(235, 235, 235);
 }
 
 .one tr:nth-child(even) td,
 .two tr:nth-child(even) td,
-.three tr:nth-child(even) td {
+.three tr:nth-child(even) td,
+.five tr:nth-child(even) td,
+.six tr:nth-child(even) td {
     background-color: #D4FFFA;
 }
 
 .one tr:nth-child(odd) td,
 .two tr:nth-child(odd) td,
-.three tr:nth-child(odd) td {
+.three tr:nth-child(odd) td,
+.five tr:nth-child(odd) td {
     background-color: #C5EA25;
 }
-
-/* .colHeaders {
-    color: red;
-} */
-
-/* Rounded border */
-
 
 /* section four */
 .white {
